@@ -1,0 +1,8 @@
+//What will be the output of the following code?
+
+name = 'saif'
+d = int(name)
+print(type(d))
+
+//Ans Error
+//Explanation: We cannot convert a string into an integer.
