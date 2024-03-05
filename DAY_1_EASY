@@ -1,4 +1,4 @@
-//What will be the output of the following code?
+//Q1.What will be the output of the following code?
 
 name = 'saif'
 d = int(name)
@@ -6,3 +6,65 @@ print(type(d))
 
 //Ans Error
 //Explanation: We cannot convert a string into an integer.
+
+//..................................................................................
+//Q2.Predict the output by the following code snippet.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 5, c = 5;
+    int d;
+    d = b + c == a;
+    cout << d;
+}
+
+//Ans 1
+//Solution description
+In this case, the first (b + c) is calculated, then the value is compared with 'a', as they are equal, the value of 'd' becomes 1.
+
+//..................................................................................
+
+//Q3.What is the output of the following for loop and range() function?
+
+for num in range(2,-5,-1):
+    print(num, end=", ")
+
+//Ans 
+2, 1, 0, -1, -2, -3, -4,
+
+Solution description
+Here we are iterating reverse from the start while iterating reverse we have to pass step size as negative.
+
+//..................................................................................
+
+Q4.Which of the following statement is true?
+
+Views could be looked as an additional layer on the table which enables us to protect intricate or sensitive data based upon our needs
+
+Views are virtual tables that are compiled at run time
+
+Creating views can improve query response time
+
+All of the Mentioned
+
+//..................................................................................
+
+Q5.What is the output of the following code?
+
+public class Solution {
+    public static void main(String argo[]) {
+        int a = 50;
+        int b = 100;
+        int c = (a > b) ? a : b;
+
+        System.out.println(c);
+    }
+}     
+
+//Ans 100
+//Solution description
+//The above program simply finds the maximum among three numbers. It first checks if a is greater than b or not, if yes then print a else print b.
+
+
