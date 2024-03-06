@@ -1,0 +1,52 @@
+Q_1.What will be the output of the following code?
+
+if 10 == 10:
+    print("Welcome to CodingNinjas")
+
+//Ans Welcome to CodingNinjas
+
+//Solution description
+//The code block in an if the statement is executed if the boolean condition associated with the-if statement evaluates to True.
+//In this example, the boolean condition (10 == 10) evaluates to True and the code block is executed.
+
+//...............................................................................
+
+Q_2.A ___________ is an indirect functional dependency, one in which X->Z only by virtue of X->Y and Y->Z. (INFOSYS)
+
+
+//Ans Transitive Dependency
+
+//Solution description
+//Third Normal Form deals with something called ‘transitive’ dependencies.
+//This means if we have a primary key A and a non-key domain B and C where C is more dependent on B than A and B is directly dependent on A, then C can be considered transitively dependent on A.
+
+Q_3............................................................................
+John is stronger than Mike, but Luke is stronger than John.            (SAP 2019)
+Statement: Mike is stronger than Luke.
+
+//Ans 
+False
+
+//Solution description
+//Since we are only measuring one variable – strength – we know that if John is stronger than Mike, and Luke is stronger than John, then Mike cannot be stronger than Luke.
+//There is enough information to say this for sure. This is quite a straightforward example, containing only three pieces of information to work with.
+
+Q_4.Problem statement...........................................................
+
+Which of these access modifiers must be used for the main() method?
+
+//Ans public
+
+//Solution description
+//It is necessary to declare the main() method as public because jvm calls the main() method outside the class.
+
+
+
+
+
+
+
+
+
+
+
